@@ -39,6 +39,6 @@ screenshots of the app
 
 any changes merged into master will be redeployed
 
-deployed link : [NewsLetter](https://newsletter-girish.herokuapp.com/)
+deployed link : [NewsLetter](https://master--newslettertestapp.netlify.app//)
 
 ```

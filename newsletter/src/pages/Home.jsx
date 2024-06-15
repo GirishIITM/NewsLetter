@@ -5,6 +5,7 @@ import '../styles/home.css'
 import Page2 from '../components/Page2'
 import TestiNomials from '../components/TestiNomials.jsx'
 import Page3 from '../components/Page3.jsx'
+import Page4 from '../components/Page4.jsx'
 
 
 export default function Home() {
@@ -15,6 +16,7 @@ export default function Home() {
             <Page2 />
             <TestiNomials />
             <Page3 />
+            <Page4 />
         </>
     )
 }

@@ -15,7 +15,7 @@ export default function Page2() {
 
     return (
         <div className='page2'>
-            <h1>Trusted by 10,000+ Pros from </h1>
+            <h3 className='page_h3'>Trusted by 10,000+ Pros from </h3>
             <div className='company_logos'>
                 <div className='logo_slide' ref={logoRef}>
                     {company_images.map((company, index) => (

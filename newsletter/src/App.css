@@ -1,7 +1,14 @@
-.App{
+.App {
     display: flex;
     flex-direction: column;
     padding-top: 150px;
     gap: 100px;
     width: 100%;
+}
+
+.page_h3 {
+    font-size: 42px;
+    font-weight: 700;
+    line-height: 1.2em;
+    text-align: center;
 }

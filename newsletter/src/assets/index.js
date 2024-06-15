@@ -10,6 +10,7 @@ import company_logo_7 from './companies/cmp7.svg';
 import company_logo_8 from './companies/cmp8.svg';
 import white_star from './white_star.svg';
 import yellow_star from './yellow_star.svg';
+import profile_png from './profile.png';
 
 const company_images = [company_logo_1, company_logo_2, company_logo_3, company_logo_4 , company_logo_6, company_logo_7, company_logo_8];
 
@@ -18,5 +19,6 @@ export {
     page_1_image2,
     company_images,
     white_star,
-    yellow_star
+    yellow_star,
+    profile_png
 }

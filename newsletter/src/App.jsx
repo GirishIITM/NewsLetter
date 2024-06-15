@@ -4,7 +4,7 @@ import AllRoutes from './pages/AllRoutes'
 function App() {
 
   return (
-    <div>
+    <div className='App'>
       {<AllRoutes />}
     </div>
   )

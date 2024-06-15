@@ -1,6 +1,6 @@
 
 header {
-    background-color: #111;
+    background-color: rgba(0, 0, 0, 0.158);
     padding: 20px;
     display: flex;
     justify-content: space-between;
@@ -8,6 +8,9 @@ header {
     position: fixed;
     width: 100%;
     box-sizing: border-box;
+    top: 0;
+    z-index: 1;
+    backdrop-filter: blur(20px);
 }
 
 .home_logo {

@@ -42,3 +42,9 @@ any changes merged into master will be redeployed
 deployed link : [NewsLetter](https://master--newslettertestapp.netlify.app//)
 
 ```
+
+other links 
+
+https://osintambition.substack.com/
+https://app.senja.io/studio
+https://osintambition.substack.com/

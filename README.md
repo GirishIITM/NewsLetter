@@ -6,11 +6,11 @@ any changes merged into master will be redeployed
 
 This is a simple news letter app that allows users to subscribe to a news letter. The app is built with Reactjs
 
-screenshots of the app
+demo video
 
-![screenshot1](public/scrn_shot1.png)
+[Screencast from 2024-06-17 23-59-08.webm](https://github.com/GirishIITM/NewsLetter/assets/159102618/08e2a362-a2b2-4a67-bd5d-189023ef512a)
 
-![screenshot2](public/scrn_shot2.png)
+![Screenshot_18-6-2024_0132_localhost](https://github.com/GirishIITM/NewsLetter/assets/159102618/fc550412-be9e-4995-95ec-a2cc64c3ca28)
 
 # To run the app
 

@@ -12,6 +12,7 @@ export default function NavBar() {
     return (
         <header style={{
             backdropFilter: navOpen ? "blur(15px)" : "none",
+            height: navOpen ? '100vh' : '60px',
         }}>
             <div className='header_flex'>
                 <Link to='/' className='home_logo'>OSINT Ambition</Link>
@@ -37,9 +38,15 @@ export default function NavBar() {
                     height: navOpen ? '100vh' : '0px',
                     opacity: navOpen ? 1 : 0,
                     zIndex: navOpen ? 1 : -1,
+                    top: navOpen ? '0' : '-100px',
                 }}
             >
-                <ul>
+                <ul style={{
+                    height: navOpen ? '100vh' : '0px',
+                    opacity: navOpen ? 1 : 0,
+                    zIndex: navOpen ? 1 : -1,
+                    top: navOpen ? '0' : '-100px',
+                }}>
                     <li><Link to="/">Home </Link></li>
                     <li><Link to="/products">Products</Link></li>
                     <li><Link to="/">All essays</Link></li>

@@ -1,5 +1,5 @@
-import page_1_image from './page1.png'
-import page_1_image2 from './page1_2.png'
+import page_1_image from './scrn_shot1.jpg';
+import page_1_image2 from './scrn_shot2.jpg';
 import company_logo_1 from './companies/cmp1.svg';
 import company_logo_2 from './companies/cmp2.svg';
 import company_logo_3 from './companies/cmp3.svg';

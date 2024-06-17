@@ -6,7 +6,7 @@ import Page2 from '../components/Page2'
 import TestiNomials from '../components/TestiNomials.jsx'
 import Page3 from '../components/Page3.jsx'
 import Page4 from '../components/Page4.jsx'
-
+import Page5 from '../components/Page5.jsx'
 
 export default function Home() {
     return (
@@ -17,6 +17,7 @@ export default function Home() {
             <TestiNomials />
             <Page3 />
             <Page4 />
+            <Page5 />
         </>
     )
 }

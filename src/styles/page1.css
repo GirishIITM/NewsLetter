@@ -27,6 +27,10 @@
     width: 50%;
 }
 
+.page1 .page_right img{
+    width: 200px;
+}
+
 .page1 .page_right img {
     position: absolute;
     border-radius: 30px;

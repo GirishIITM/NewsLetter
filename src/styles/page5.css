@@ -1,0 +1,13 @@
+.page5_h3 {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.page5_head {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 0 200px;
+}

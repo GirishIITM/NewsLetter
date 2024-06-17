@@ -4,3 +4,10 @@
     gap: 20px;
     align-items: center;
 }
+
+
+@media (max-width: 1000px) {
+   .page4 .page_h3{
+         font-size: 30px;
+   }
+}

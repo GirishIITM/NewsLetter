@@ -7,7 +7,7 @@ export default function Page2() {
 
     return (
         <div className='page2'>
-            <h3 className='page_h3'>Trusted by 10,000+ Pros from </h3>
+            <h3 className='page_h3'>Trusted by 650+ OSINT lovers from </h3>
             {<MovingLogos />}
         </div>
     );

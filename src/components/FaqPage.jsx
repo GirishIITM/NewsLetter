@@ -6,22 +6,26 @@ const FaqPage = () => {
 
     const [faqData, setFaqData] = useState([
         {
-            question: "Why should I subscribe to your newsletter?",
-            answer: "Buckle up, because this newsletter is your express ticket to a world of non-stop fun, wit, and unexpected insights. We're talking content that's more exciting than a rollercoaster ride and more captivating than a Netflix binge. Trust us, you won't want to miss out!"
+            "question": "Why should I subscribe?",
+            "answer": "We deliver all OSINT community updates in your inbox for free. Our editor wastes his time, so that you can save your time from scrolling the social media in the name of staying updated with OSINT community."
         },
         {
-            question: "Can I get a refund if I'm not satisfied with the newsletter?",
-            answer: "We're confident that once you're in, you're in for the long haul. However, if you find yourself in the rare position of wanting to unsubscribe, know that our virtual door is always open. No hard feelings, just a warm invitation to rejoin us whenever you're ready for another round of not-boring content!"
+            "question": "Who should subscribe?",
+            "answer": "Anyone interested in OSINT will love our newsletter. Subscribe for free to receive our Wednesday Updates and Top 10 Series, and learn about new paid subscriber content in the future."
         },
         {
-            question: "How often will I receive the newsletter?",
-            answer: "We're all about keeping things fresh and unexpected. Just when you think you've got us figured out, we'll surprise you with a delightful dose of not-boring goodness. So, expect us to pop up when you least expect it, like your favorite party guest who knows exactly when to make an entrance!"
+            "question": "Do you have paid subscriptions?",
+            "answer": "As of today, we don’t offer any paid subscription, you can read all our posts for free. We have plans to launch a paid subscription in future, but your favorite series, Wednesday Updates and Top 10 Series will still be free. We will be introducing some new type of content for our lovely paid subscribers."
         },
         {
-            question: "Is there a secret handshake for newsletter subscribers?",
-            answer: "While we can't divulge the exact details, we can confirm that our subscribers are part of an exclusive club of exceptional taste and wit. You'll know it when you see it - a subtle nod, a knowing wink, and you're in on the Not Boring secret!"
+            "question": "Do you allow guest posting?",
+            "answer": "We don't currently accept guest posts, but if you're interested, contact dheerajydv19@proton.me."
+        },
+        {
+            "question": "Do you accept sponsorships?",
+            "answer": "Yes, we accept sponsorships from companies offering products or services relevant to our OSINT audience. Email your proposal with details and budget to dheerajydv19@proton.me."
         }
-    ])
+    ]);
     const [activeIndex, setActiveIndex] = useState(null);
 
     const toggleFAQ = (index) => {

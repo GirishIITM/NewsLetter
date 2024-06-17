@@ -1,4 +1,3 @@
-import React from 'react'
 import Page1 from '../pages/Page1'
 import '../styles/home.css'
 import Page2 from '../pages/Page2'
@@ -19,7 +18,6 @@ export default function Home() {
             <Page3 />
             <Page4 />
             <Page5 />
-            <Page6 />
             <Subscription />
             <FaqPage />
         </>

@@ -6,8 +6,8 @@ export default function Page1() {
     return (
         <div className='page1'>
             <div className='page_left'>
-                <h1>Insights about tech, business & crypto</h1>
-                <p>Get weekly insights about what's happening in tech. Subscribe today. </p>
+                <h1>OSINT Updates</h1>
+                <h2>Get all OSINT community updates directly in your inbox. </h2>
                 <button className='button_1'>Subscribe for free</button>
             </div>
             <div className='page_right'>

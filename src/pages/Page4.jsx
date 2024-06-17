@@ -1,6 +1,6 @@
 import React from 'react'
 import '../styles/page4.css'
-import WorkCard from './WorkCard';
+import WorkCard from '../components/WorkCard';
 import '../styles/workCard.css'
 import { Link } from 'react-router-dom';
 
@@ -30,7 +30,7 @@ export default function Page4() {
       <div className='page4_works'>
         {
           works.length > 0 && works.map((work, index) => (
-            <WorkCard work={work} />
+            <WorkCard key={index} work={work} />
           ))
         }
       </div>

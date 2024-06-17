@@ -3,7 +3,6 @@
     flex-direction: column;
     padding-top: 150px;
     gap: 100px;
-    width: 100%;
 }
 
 .page_h3 {
@@ -11,4 +10,10 @@
     font-weight: 700;
     line-height: 1.2em;
     text-align: center;
+}
+
+@media (max-width: 600px){
+    .App{
+        overflow: hidden;
+    }
 }

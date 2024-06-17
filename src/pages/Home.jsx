@@ -1,22 +1,25 @@
-import React from 'react'
-import NavBar from '../components/NavBar'
-import Page1 from '../components/Page1'
+import Page1 from '../pages/Page1'
 import '../styles/home.css'
-import Page2 from '../components/Page2'
+import Page2 from '../pages/Page2'
 import TestiNomials from '../components/TestiNomials.jsx'
-import Page3 from '../components/Page3.jsx'
-import Page4 from '../components/Page4.jsx'
-
+import Page3 from '../pages/Page3.jsx'
+import Page4 from '../pages/Page4.jsx'
+import Page5 from '../pages/Page5.jsx'
+import Page6 from '../pages/Page6.jsx'
+import Subscription from '../components/Subscription.jsx'
+import FaqPage from '../components/FaqPage.jsx'
 
 export default function Home() {
     return (
         <>
-            <NavBar />
             <Page1 />
             <Page2 />
             <TestiNomials />
             <Page3 />
             <Page4 />
+            <Page5 />
+            <Subscription />
+            <FaqPage />
         </>
     )
 }

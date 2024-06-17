@@ -1,50 +1,8 @@
 .testinomials {
     display: flex;
     gap: 20px;
-    padding: 20px;
     height: auto;
-    flex-wrap: wrap;
     justify-content: center;
-    height: 650px;
-}
-
-.testimonial {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-    width: 350px;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 0 5px rgba(255, 255, 255, 0.767);
-    height: fit-content;
-}
-
-.user_info {
-    display: flex;
-    align-items: center;
-    gap: 10px;
-}
-
-.user_info img {
-    width: 42px;
-    height: 42px;
-    border-radius: 999px;
-    object-fit: cover;
-}
-
-.user_info h3 {
-    font-size: 1.2rem;
-    font-weight: 600;
-    margin: 0;
-}
-
-.testimonial p {
-    font-size: 0.9rem;
-    color: #999999;
-    margin: 0;
-    line-height: 25px;
-}
-
-.testimonial .review p {
-    color: white;
+    height: 1000px;
+    padding: 5px;
 }
